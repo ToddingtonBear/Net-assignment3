@@ -26,7 +26,7 @@ namespace Assignment3
             set { wheels = value; }
         }
 
-        public Vehicle() { }
+        public Vehicle() { Console.WriteLine("Vehicle created"); }
 
         public virtual void Specs()
         {
